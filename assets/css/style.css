@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+/* * {
+  margin-left: 50px;
+} */
+
+.logo {
+  position: absolute;
+  width: 150px;
+  height: 49px;
+  left: 50px;
+  top: 25px;
+}
+
+nav li {
+  display: inline;
+  list-style-type: none;
+}
+
+/* nav a {
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  color: #212121;
+} */
+
+.beranda {
+  position: absolute;
+  width: 67px;
+  height: 28px;
+  left: 269px;
+  top: 35px;
+
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  align-items: flex-end;
+  text-decoration-line: none;
+
+  color: #212121;
+}
+
+.fitur {
+  position: absolute;
+  width: 40px;
+  height: 28px;
+  left: 396px;
+  top: 35px;
+
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  align-items: flex-end;
+  text-decoration-line: none;
+
+  color: #212121;
+}
+
+.tentangKami {
+  position: absolute;
+  width: 110px;
+  height: 28px;
+  left: 496px;
+  top: 35px;
+
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  align-items: flex-end;
+  text-decoration-line: none;
+
+  color: #212121;
+}
+
+.kontak {
+  position: absolute;
+  width: 57px;
+  height: 28px;
+  left: 666px;
+  top: 35px;
+
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  align-items: flex-end;
+  text-decoration-line: none;
+
+  color: #212121;
+}
+
+.gambarTangan {
+  position: absolute;
+  left: 143px;
+  top: 288px;
+  transform: rotate(-48.84deg);
+}
+
+.tagLine {
+  position: absolute;
+  width: 490px;
+  height: 258px;
+  left: 50px;
+  top: 243px;
+
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 86px;
+
+  color: #212121;
+}
