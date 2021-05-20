@@ -116,10 +116,10 @@ a:active {
 
 .tagLine {
   position: absolute;
-  width: 490px;
-  height: 258px;
+  width: 892px;
+  height: 162px;
   left: 50px;
-  top: 243px;
+  top: 329px;
   font-style: normal;
   font-weight: bold;
   font-size: 72px;
@@ -128,39 +128,39 @@ a:active {
 
 .subTag {
   position: absolute;
-  width: 510px;
+  width: 814px;
   height: 39px;
   left: 50px;
   top: 521px;
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
-  line-height: 17px;
+  font-size: 18px;
+  line-height: 22px;
   color: #757575;
 }
 
 .appleStore {
   position: absolute;
-  width: 226px;
-  height: 85px;
+  width: 275px;
+  height: 104px;
   left: 50px;
-  top: 580px;
+  top: 590px;
 }
 
 .playStore {
   position: absolute;
-  width: 229px;
-  height: 85px;
-  left: 308px;
-  top: 580px;
+  width: 279px;
+  height: 104px;
+  left: 325px;
+  top: 590px;
 }
 
 .angka1 {
   position: absolute;
   width: 49px;
   height: 72px;
-  left: 62px;
-  top: 672px;
+  left: 65px;
+  top: 694px;
   font-style: normal;
   font-weight: 600;
   font-size: 72px;
@@ -173,8 +173,8 @@ a:active {
   position: absolute;
   width: 122px;
   height: 57px;
-  left: 111px;
-  top: 680px;
+  left: 114px;
+  top: 702px;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -187,8 +187,8 @@ a:active {
   position: absolute;
   width: 106px;
   height: 72px;
-  left: 264px;
-  top: 672px;
+  left: 274px;
+  top: 694px;
   font-style: normal;
   font-weight: 600;
   font-size: 72px;
@@ -201,8 +201,8 @@ a:active {
   position: absolute;
   width: 129px;
   height: 57px;
-  left: 372px;
-  top: 680px;
+  left: 390px;
+  top: 702px;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -220,5 +220,104 @@ a:active {
 @media screen and (max-width: 1200px) {
   .gambarTangan {
     display: none;
+  }
+}
+
+@media screen and (max-width: 1556px) {
+  .tagLine {
+    position: absolute;
+    width: 490px;
+    height: 258px;
+    left: 50px;
+    top: 243px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 86px;
+  }
+
+  .subTag {
+    position: absolute;
+    width: 510px;
+    height: 39px;
+    left: 50px;
+    top: 521px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #757575;
+  }
+
+  .appleStore {
+    position: absolute;
+    width: 226px;
+    height: 85px;
+    left: 50px;
+    top: 580px;
+  }
+
+  .playStore {
+    position: absolute;
+    width: 229px;
+    height: 85px;
+    left: 308px;
+    top: 580px;
+  }
+
+  .angka1 {
+    position: absolute;
+    width: 49px;
+    height: 72px;
+    left: 62px;
+    top: 672px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 86px;
+    display: flex;
+    align-items: center;
+  }
+
+  .text1 {
+    position: absolute;
+    width: 122px;
+    height: 57px;
+    left: 111px;
+    top: 680px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+  }
+
+  .angka2 {
+    position: absolute;
+    width: 106px;
+    height: 72px;
+    left: 264px;
+    top: 672px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 86px;
+    display: flex;
+    align-items: center;
+  }
+
+  .text2 {
+    position: absolute;
+    width: 129px;
+    height: 57px;
+    left: 372px;
+    top: 680px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
   }
 }
