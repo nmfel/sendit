@@ -1,8 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 
-/* * {
-  margin-left: 50px;
-} */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato";
+  color: #212121;
+}
+
+.container {
+  overflow: auto;
+}
 
 .logo {
   position: absolute;
@@ -17,12 +25,27 @@ nav li {
   list-style-type: none;
 }
 
-/* nav a {
-  font-size: 18px;
-  font-weight: 400;
-  text-decoration: none;
-  color: #212121;
-} */
+a:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #212121;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+a:hover:after {
+  width: 100%;
+  left: 0;
+}
+
+a:active {
+  text-decoration: underline;
+}
 
 .beranda {
   position: absolute;
@@ -30,8 +53,6 @@ nav li {
   height: 28px;
   left: 269px;
   top: 35px;
-
-  font-family: Lato;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -39,8 +60,6 @@ nav li {
   display: flex;
   align-items: flex-end;
   text-decoration-line: none;
-
-  color: #212121;
 }
 
 .fitur {
@@ -49,8 +68,6 @@ nav li {
   height: 28px;
   left: 396px;
   top: 35px;
-
-  font-family: Lato;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -58,8 +75,6 @@ nav li {
   display: flex;
   align-items: flex-end;
   text-decoration-line: none;
-
-  color: #212121;
 }
 
 .tentangKami {
@@ -68,8 +83,6 @@ nav li {
   height: 28px;
   left: 496px;
   top: 35px;
-
-  font-family: Lato;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -77,8 +90,6 @@ nav li {
   display: flex;
   align-items: flex-end;
   text-decoration-line: none;
-
-  color: #212121;
 }
 
 .kontak {
@@ -87,8 +98,6 @@ nav li {
   height: 28px;
   left: 666px;
   top: 35px;
-
-  font-family: Lato;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -96,15 +105,13 @@ nav li {
   display: flex;
   align-items: flex-end;
   text-decoration-line: none;
-
-  color: #212121;
 }
 
 .gambarTangan {
-  position: absolute;
-  left: 143px;
-  top: 288px;
-  transform: rotate(-48.84deg);
+  display: flex;
+  justify-content: flex-end;
+  height: auto;
+  max-width: 100%;
 }
 
 .tagLine {
@@ -113,12 +120,105 @@ nav li {
   height: 258px;
   left: 50px;
   top: 243px;
-
-  font-family: Lato;
   font-style: normal;
   font-weight: bold;
   font-size: 72px;
   line-height: 86px;
+}
 
-  color: #212121;
+.subTag {
+  position: absolute;
+  width: 510px;
+  height: 39px;
+  left: 50px;
+  top: 521px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #757575;
+}
+
+.appleStore {
+  position: absolute;
+  width: 226px;
+  height: 85px;
+  left: 50px;
+  top: 580px;
+}
+
+.playStore {
+  position: absolute;
+  width: 229px;
+  height: 85px;
+  left: 308px;
+  top: 580px;
+}
+
+.angka1 {
+  position: absolute;
+  width: 49px;
+  height: 72px;
+  left: 62px;
+  top: 672px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 86px;
+  display: flex;
+  align-items: center;
+}
+
+.text1 {
+  position: absolute;
+  width: 122px;
+  height: 57px;
+  left: 111px;
+  top: 680px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+}
+
+.angka2 {
+  position: absolute;
+  width: 106px;
+  height: 72px;
+  left: 264px;
+  top: 672px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 86px;
+  display: flex;
+  align-items: center;
+}
+
+.text2 {
+  position: absolute;
+  width: 129px;
+  height: 57px;
+  left: 372px;
+  top: 680px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+  .gambarTangan {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .gambarTangan {
+    display: none;
+  }
 }
